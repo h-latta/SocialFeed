@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import CreatePost from './Components/CreatePost/CreatePost';
 import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
+import NavBar from './Components/NavBar/NavBar';
 
 function App() {
 
@@ -14,12 +15,15 @@ function App() {
 
   return (
     <div>
-      <h1>Hello world!</h1>
+        <div>
+        <NavBar />
+        </div>
         <div>
         <CreatePost addNewPostProperty={addNewPost}/>
+        </div>
+        <div>
         <DisplayPosts parentPosts={post}/>
         </div>
-
     </div>
   );
 }
