@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import CreatePost from './Components/CreatePost/CreatePost';
-import Post from './Components/Post/Post';
+import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
 
 function App() {
 
@@ -16,7 +16,8 @@ function App() {
     <div>
       <h1>Hello world!</h1>
         <div>
-        <CreatePost />
+        <CreatePost addNewPostProperty={addNewPost}/>
+        <DisplayPosts parentPosts={post}/>
         </div>
 
     </div>
