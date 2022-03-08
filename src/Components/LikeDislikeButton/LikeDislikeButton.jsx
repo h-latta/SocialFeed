@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './LikeDislikeButton.css'
 const LikeDislikeButton = (props) => {
     const [buttonLike, setButtonLike] = useState('inactive')
     const [buttonDislike, setButtonDislike] = useState('inactive')
@@ -18,8 +19,8 @@ const LikeDislikeButton = (props) => {
             setButtonDislike('inactive')
         }
     }
-    return (     
-        <div>
+    return (
+        <div>     
             <button className={buttonLike} onClick={handleClickLike}>LIKE</button>
             <button className={buttonDislike} onClick={handleClickDislike}>DISLIKE</button>
         </div>

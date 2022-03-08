@@ -3,7 +3,7 @@ import LikeDislikeButton from '../LikeDislikeButton/LikeDislikeButton';
 
 const DisplayPosts = (props) => {
     return (
-    <div className='container-fluid'>
+    <div className='container' style={{'marginTop': '3rem'}}>
         <table className='table'>
             <thead className='center'>
                 <tr>
