@@ -3,10 +3,12 @@ import './App.css';
 import CreatePost from './Components/CreatePost/CreatePost';
 import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
 import NavBar from './Components/NavBar/NavBar';
+//import Post from './Components/Post/Post';
+import './App.css'
 
 function App() {
 
-  const [post, setPost] = useState([{name: 'Harrison Latta', post: 'Hello World!'}])
+  const [post, setPost] = useState([])
 
   function addNewPost(entry){
     let tempPost = [...post, entry];
@@ -14,7 +16,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='default-app'>
         <div>
         <NavBar />
         </div>

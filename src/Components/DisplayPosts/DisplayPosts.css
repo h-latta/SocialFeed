@@ -1,0 +1,15 @@
+.postbox{
+    margin: 1em;
+}
+
+.active-like{
+    background-color: green;
+}
+
+.inactive{
+    background-color: gray;
+}
+
+.active-dislike{
+    background-color: red;
+}
