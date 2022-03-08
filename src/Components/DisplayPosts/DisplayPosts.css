@@ -3,13 +3,13 @@
 }
 
 .active-like{
-    background-color: green;
-}
-
-.inactive{
-    background-color: gray;
+    color: green;
 }
 
 .active-dislike{
-    background-color: red;
+    color: red;
+}
+
+.inactive{
+    color: gray;
 }

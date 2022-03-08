@@ -22,7 +22,7 @@ const DisplayPosts = (props) => {
     }
     return (
     <div className='container-fluid'>
-        <table className='table table-striped'>
+        <table className='table'>
             <thead className='center'>
                 <tr>
                     <th scope='col'>Posts</th>
